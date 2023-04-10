@@ -1,0 +1,8 @@
+C:\Users\SONALI MAHAPATRA\276\OOPSDemo\OOPSDemo\bin\Debug\OOPSDemo.exe.config
+C:\Users\SONALI MAHAPATRA\276\OOPSDemo\OOPSDemo\bin\Debug\OOPSDemo.exe
+C:\Users\SONALI MAHAPATRA\276\OOPSDemo\OOPSDemo\bin\Debug\OOPSDemo.pdb
+C:\Users\SONALI MAHAPATRA\276\OOPSDemo\OOPSDemo\obj\Debug\OOPSDemo.csproj.AssemblyReference.cache
+C:\Users\SONALI MAHAPATRA\276\OOPSDemo\OOPSDemo\obj\Debug\OOPSDemo.csproj.SuggestedBindingRedirects.cache
+C:\Users\SONALI MAHAPATRA\276\OOPSDemo\OOPSDemo\obj\Debug\OOPSDemo.csproj.CoreCompileInputs.cache
+C:\Users\SONALI MAHAPATRA\276\OOPSDemo\OOPSDemo\obj\Debug\OOPSDemo.exe
+C:\Users\SONALI MAHAPATRA\276\OOPSDemo\OOPSDemo\obj\Debug\OOPSDemo.pdb
