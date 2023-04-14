@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Car.cs" />
+    <Compile Include="Encapsulation\Student.cs" />
     <Compile Include="polymorphism\MethodOverLoading.cs" />
     <Compile Include="polymorphism\MethodOverriding.cs" />
     <Compile Include="Program.cs" />
