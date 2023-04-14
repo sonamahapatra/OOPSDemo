@@ -1,4 +1,5 @@
-﻿using OOPSDemo.Encapsulation;
+﻿using OOPSDemo.Abstraction;
+using OOPSDemo.Encapsulation;
 using OOPSDemo.polymorphism;
 using System;
 using System.Collections.Generic;
@@ -14,7 +15,7 @@ namespace OOPSDemo
         public static void Main(string[] args)
         {
             Console.WriteLine("Please Choose One From Below Option: ");
-            Console.WriteLine("1.Inheritance\n2.polymorphism\n3.Method Overriding \n4.Encapsulation");
+            Console.WriteLine("1.Inheritance\n2.polymorphism\n3.Method Overriding \n4.Encapsulation \n5.Abstraction");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch(Option)
             {
@@ -44,6 +45,12 @@ namespace OOPSDemo
                     Console.WriteLine("Enter Your Student Name:");
                     student.Name =Console.ReadLine();
                     Console.WriteLine("Name :"+ student.Name);
+                    break;
+                    case 5:
+                        PartTimeEmployee employee= new PartTimeEmployee();
+                    employee.name = "Harish";
+                    employee.GetEmployeeDetails();
+                    employee.GetSalary();
                     break;
                 default:
                     Console.WriteLine("Please Choose program with given option");
