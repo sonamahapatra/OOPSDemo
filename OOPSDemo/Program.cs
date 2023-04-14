@@ -13,7 +13,7 @@ namespace OOPSDemo
         public static void Main(string[] args)
         {
             Console.WriteLine("Please Choose One From Below Option: ");
-            Console.WriteLine("1.Inheritance\n2.polymorphism\n");
+            Console.WriteLine("1.Inheritance\n2.polymorphism\n3.Method Overriding");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch(Option)
             {
@@ -26,6 +26,17 @@ namespace OOPSDemo
                     case 2:
                         Addition addition = new Addition();
                     addition.AddNumbers(10, 45.67, 50);
+                    break;
+                case 3:
+                    Animal animal= new Animal();
+                    animal.name = "Elephant";
+                    animal.AnimalDetails();
+                    animal.Run();
+
+                    Lion lion = new Lion();
+                    lion.name = "Lion";
+                    lion.AnimalDetails();
+                    lion.Run();
                     break;
                 default:
                     Console.WriteLine("Please Choose program with given option");
